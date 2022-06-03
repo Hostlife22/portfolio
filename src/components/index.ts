@@ -1,5 +1,6 @@
 export { default as Card } from './Card/Card';
 export { default as CardItem } from './CardItem/CardItem';
+export { default as CardPortfolio } from './CardPortfolio/CardPortfolio';
 export { default as CardService } from './CardService/CardService';
 export { default as InfoItem } from './InfoItem/InfoItem';
 export { default as Link } from './Link/Link';

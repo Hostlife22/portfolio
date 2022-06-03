@@ -1,0 +1,18 @@
+.portfolioItem {
+  flex: 0 0 33.33%;
+  max-width: 33.33%;
+  margin-bottom: 30px;
+  padding: 0 15px;
+}
+
+.portfolioItem .portfolioItemInner {
+  overflow: hidden;
+  border: 6px solid var(--bg-black-100);
+  box-shadow: 0 0 20px rgb(48 46 77 / 15%);
+  cursor: pointer;
+}
+
+.portfolioItem .portfolioItemInner .portfolioImg img {
+  display: block;
+  width: 100%;
+}

@@ -12,7 +12,14 @@ import {
   FaSearch,
   FaUserAlt,
 } from 'react-icons/fa';
-import { ICardItem, IMenuItem, IpersonalInfo, IServiceCard, ISkill } from './helpers.interface';
+import {
+  ICardItem,
+  IMenuItem,
+  IpersonalInfo,
+  IPortfilioCard,
+  IServiceCard,
+  ISkill,
+} from './helpers.interface';
 
 export const menu: IMenuItem[] = [
   {
@@ -169,5 +176,38 @@ export const services: IServiceCard[] = [
     description:
       'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam mollitia quae unde fugiat, tempora placeat at maiores ea impedit aspernatur labore numquam autem cum beatae.',
     id: 6,
+  },
+];
+
+export const portfolio: IPortfilioCard[] = [
+  {
+    img: 'https://via.placeholder.com/300x200',
+    name: 'Project 2',
+    id: 2,
+  },
+  {
+    img: 'https://via.placeholder.com/300x200',
+    name: 'Project 3',
+    id: 3,
+  },
+  {
+    img: 'https://via.placeholder.com/300x200',
+    name: 'Project 4',
+    id: 4,
+  },
+  {
+    img: 'https://via.placeholder.com/300x200',
+    name: 'Project 5',
+    id: 5,
+  },
+  {
+    img: 'https://via.placeholder.com/300x200',
+    name: 'Project 6',
+    id: 6,
+  },
+  {
+    img: 'https://via.placeholder.com/300x200',
+    name: 'Project 7',
+    id: 7,
   },
 ];

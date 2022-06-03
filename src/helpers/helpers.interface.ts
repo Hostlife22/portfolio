@@ -28,3 +28,9 @@ export interface IServiceCard {
   description: string;
   id: number;
 }
+
+export interface IPortfilioCard {
+  img: string;
+  name: string;
+  id: number;
+}
