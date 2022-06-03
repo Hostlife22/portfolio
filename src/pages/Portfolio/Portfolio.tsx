@@ -1,8 +1,8 @@
-import { Section } from '../../components';
+import { Row } from '../../components';
 import styles from './Portfolio.module.css';
 
 function Portfolio() {
-  return <Section className={styles.portfolio}>Portfolio</Section>;
+  return <Row className={styles.portfolio}>Portfolio</Row>;
 }
 
 export default Portfolio;

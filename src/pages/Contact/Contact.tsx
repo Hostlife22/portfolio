@@ -1,8 +1,8 @@
-import { Section } from '../../components';
+import { Row } from '../../components';
 import styles from './Contact.module.css';
 
 function Contact() {
-  return <Section className={styles.contact}>Contact</Section>;
+  return <Row className={styles.contact}>Contact</Row>;
 }
 
 export default Contact;

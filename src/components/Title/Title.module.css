@@ -1,0 +1,34 @@
+.sectionTitle {
+  flex: 0 0 100%;
+  max-width: 100%;
+  margin-bottom: 60px;
+  padding: 0 15px;
+}
+
+.sectionTitle h2 {
+  position: relative;
+  color: var(--text-black-900);
+  font-weight: 700;
+  font-size: 40px;
+}
+
+.sectionTitle h2::before {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 50px;
+  height: 4px;
+  background-color: var(--skin-color);
+  content: '';
+}
+
+.sectionTitle h2::after {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 25px;
+  height: 4px;
+  margin-top: 8px;
+  background-color: var(--skin-color);
+  content: '';
+}

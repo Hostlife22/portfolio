@@ -1,8 +1,27 @@
 .section {
-  position: fixed;
+  /* position: fixed; */
   display: block;
   min-height: 100vh;
   padding: 0 30px;
   background: var(--bg-black-900);
   opacity: 1;
+}
+
+.container {
+  width: 100%;
+  min-width: 1100px;
+  margin: auto;
+}
+
+.section .container {
+  padding-top: 60px;
+  padding-bottom: 70px;
+}
+
+.row {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
 }

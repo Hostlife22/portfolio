@@ -10,7 +10,7 @@ const Section = forwardRef(
   ): JSX.Element => {
     return (
       <section className={cn(styles.section, className)} ref={ref} {...props}>
-        {children}
+        <div className={styles.container}>{children}</div>
       </section>
     );
   },

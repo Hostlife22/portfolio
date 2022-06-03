@@ -1,8 +1,8 @@
-import { Section } from '../../components';
+import { Row } from '../../components';
 import styles from './Services.module.css';
 
 function Services() {
-  return <Section className={styles.services}>Services</Section>;
+  return <Row className={styles.services}>Services</Row>;
 }
 
 export default Services;
