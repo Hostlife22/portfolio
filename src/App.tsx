@@ -1,10 +1,11 @@
-import { Feed, Sidebar } from './components';
+import { Sidebar } from './components';
+import Layout from './layout/Layout';
 
 function App() {
   return (
     <div className="App">
       <Sidebar />
-      <Feed />
+      <Layout />
     </div>
   );
 }

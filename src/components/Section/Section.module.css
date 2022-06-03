@@ -1,0 +1,8 @@
+.section {
+  position: fixed;
+  display: block;
+  min-height: 100vh;
+  padding: 0 30px;
+  background: var(--bg-black-900);
+  opacity: 1;
+}

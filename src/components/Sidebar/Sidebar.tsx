@@ -1,44 +1,27 @@
 import React from 'react';
-import { FaBriefcase, FaComments, FaHome, FaListUl, FaUserAlt } from 'react-icons/fa';
+import { Link, NavLink } from 'react-router-dom';
+import { menu } from '../../helpers/helpers';
 import styles from './Sidebar.module.css';
 
 function Sidebar() {
   return (
     <div className={styles.aside}>
       <div className={styles.logo}>
-        <a href="#">
+        <Link to="/">
           <span>A</span>tlas
-        </a>
+        </Link>
       </div>
       <div className={styles.navToggle}>
         <span />
       </div>
       <ul className={styles.nav}>
-        <li>
-          <a href="#" className={styles.active}>
-            <FaHome /> Home
-          </a>
-        </li>
-        <li>
-          <a href="#">
-            <FaUserAlt /> About
-          </a>
-        </li>
-        <li>
-          <a href="#">
-            <FaListUl /> Services
-          </a>
-        </li>
-        <li>
-          <a href="#">
-            <FaBriefcase /> Portfolio
-          </a>
-        </li>
-        <li>
-          <a href="#">
-            <FaComments /> Contact
-          </a>
-        </li>
+        {menu.map((item) => (
+          <li key={item.route}>
+            <NavLink to={item.route} className={({ isActive }) => (isActive ? styles.active : '')}>
+              {item.icon} {item.name}
+            </NavLink>
+          </li>
+        ))}
       </ul>
     </div>
   );
