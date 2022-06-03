@@ -1,5 +1,18 @@
-import { FaBriefcase, FaCalendar, FaComments, FaHome, FaListUl, FaUserAlt } from 'react-icons/fa';
-import { ICardItem, IMenuItem, IpersonalInfo, ISkill } from './helpers.interface';
+import {
+  FaBriefcase,
+  FaBullhorn,
+  FaCalendar,
+  FaCode,
+  FaComments,
+  FaHome,
+  FaLaptopCode,
+  FaListUl,
+  FaMobileAlt,
+  FaPalette,
+  FaSearch,
+  FaUserAlt,
+} from 'react-icons/fa';
+import { ICardItem, IMenuItem, IpersonalInfo, IServiceCard, ISkill } from './helpers.interface';
 
 export const menu: IMenuItem[] = [
   {
@@ -111,5 +124,50 @@ export const education: ICardItem[] = [
     description:
       'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam mollitia quae unde fugiat, tempora placeat at maiores ea impedit aspernatur labore numquam autem cum beatae.',
     id: 3,
+  },
+];
+
+export const services: IServiceCard[] = [
+  {
+    icon: <FaMobileAlt />,
+    title: 'Web Design',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam mollitia quae unde fugiat, tempora placeat at maiores ea impedit aspernatur labore numquam autem cum beatae.',
+    id: 1,
+  },
+  {
+    icon: <FaLaptopCode />,
+    title: 'Web Design',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam mollitia quae unde fugiat, tempora placeat at maiores ea impedit aspernatur labore numquam autem cum beatae.',
+    id: 2,
+  },
+  {
+    icon: <FaPalette />,
+    title: 'Web Design',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam mollitia quae unde fugiat, tempora placeat at maiores ea impedit aspernatur labore numquam autem cum beatae.',
+    id: 3,
+  },
+  {
+    icon: <FaCode />,
+    title: 'Web Design',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam mollitia quae unde fugiat, tempora placeat at maiores ea impedit aspernatur labore numquam autem cum beatae.',
+    id: 4,
+  },
+  {
+    icon: <FaSearch />,
+    title: 'Web Design',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam mollitia quae unde fugiat, tempora placeat at maiores ea impedit aspernatur labore numquam autem cum beatae.',
+    id: 5,
+  },
+  {
+    icon: <FaBullhorn />,
+    title: 'Web Design',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam mollitia quae unde fugiat, tempora placeat at maiores ea impedit aspernatur labore numquam autem cum beatae.',
+    id: 6,
   },
 ];

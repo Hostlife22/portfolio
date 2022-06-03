@@ -21,3 +21,10 @@ export interface ICardItem {
   description: string;
   id: number;
 }
+
+export interface IServiceCard {
+  icon: JSX.Element;
+  title: string;
+  description: string;
+  id: number;
+}
