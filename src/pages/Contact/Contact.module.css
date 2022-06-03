@@ -1,0 +1,93 @@
+.contactTitle {
+  margin-bottom: 20px;
+  padding: 0 15px;
+  color: var(--skin-color);
+  font-size: 25px;
+  text-align: center;
+}
+
+.contactSubTitle {
+  margin-bottom: 60px;
+  padding: 0 15px;
+  color: var(--text-black-900);
+  font-size: 15px;
+  text-align: center;
+}
+
+.contact .contactInfoItem {
+  flex: 0 0 25%;
+  max-width: 25%;
+  margin-bottom: 60px;
+  padding: 0 15px;
+  text-align: center;
+}
+
+.contact .contactInfoItem .icon {
+  display: inline-block;
+}
+
+.contact .contactInfoItem .icon svg {
+  color: var(--skin-color);
+  font-size: 25px;
+}
+
+.contact .contactInfoItem h4 {
+  margin: 15px 0 5px;
+  color: var(--text-black-900);
+  font-weight: 700;
+  font-size: 18px;
+  text-transform: capitalize;
+}
+
+.contact .contactInfoItem p {
+  color: var(--text-black-700);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 25px;
+}
+
+.contact .contactForm {
+  flex: 0 0 100%;
+  max-width: 100%;
+  padding: 0 15px;
+}
+
+.contact .contactForm .colSix {
+  flex: 0 0 50%;
+  max-width: 50%;
+}
+
+.contact .contactForm .colTwelve {
+  flex: 0 0 100%;
+  max-width: 100%;
+}
+
+.contact .contactForm .formItem {
+  margin-bottom: 30px;
+  padding: 0 15px;
+}
+
+.contact .contactForm .formItem .formControl {
+  width: 100%;
+  height: 50px;
+  padding: 10px 25px;
+  color: var(--text-black-700);
+  font-size: 16px;
+  background: var(--bg-black-100);
+  border: 1px solid var(--bg-black-50);
+  border-radius: 25px;
+  transition: all 0.3s ease;
+}
+
+.contact .contactForm .formItem .formControl:focus {
+  box-shadow: 0 0 20px rgb(48 46 77 / 15%);
+}
+
+.contact .contactForm .formItem textarea.formControl {
+  height: 140px;
+}
+
+.contact .contactForm button {
+  height: 50px;
+  padding: 0 50px;
+}

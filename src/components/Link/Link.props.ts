@@ -4,4 +4,6 @@ export interface ILinkProps
   extends DetailedHTMLProps<AnchorHTMLAttributes<HTMLAnchorElement>, HTMLAnchorElement> {
   href: string;
   children: ReactNode;
+  btn?: boolean;
+  type?: 'submit';
 }
