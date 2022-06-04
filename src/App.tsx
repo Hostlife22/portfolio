@@ -1,4 +1,4 @@
-import { Sidebar } from './components';
+import { Sidebar, StyleSwitcher } from './components';
 import Layout from './layout/Layout';
 
 function App() {
@@ -6,6 +6,7 @@ function App() {
     <div className="App">
       <Sidebar />
       <Layout />
+      <StyleSwitcher />
     </div>
   );
 }

@@ -12,8 +12,10 @@ import {
   FaSearch,
   FaUserAlt,
 } from 'react-icons/fa';
+import { ThemeColors } from '../features/theme/theme.interface';
 import {
   ICardItem,
+  IColor,
   IMenuItem,
   IpersonalInfo,
   IPortfilioCard,
@@ -211,3 +213,30 @@ export const portfolio: IPortfilioCard[] = [
     id: 7,
   },
 ];
+
+export const colors: IColor[] = [
+  {
+    name: 'One',
+    color: ThemeColors.Red,
+  },
+  {
+    name: 'Two',
+    color: ThemeColors.Orange,
+  },
+  {
+    name: 'Three',
+    color: ThemeColors.Green,
+  },
+  {
+    name: 'Four',
+    color: ThemeColors.Blue,
+  },
+  {
+    name: 'Five',
+    color: ThemeColors.Purple,
+  },
+];
+
+// export const getColor = (color: string) => {
+//   const obj = { red: IColor, Orange: 'orange', Green: 'green', Blue: 'blue', Purple: 'purple' };
+// };

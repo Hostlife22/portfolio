@@ -10,4 +10,6 @@ export { default as Section } from './Section/Section';
 export { default as Sidebar } from './Sidebar/Sidebar';
 export { default as SkillItem } from './SkillItem/SkillItem';
 export { default as Skills } from './Skills/Skills';
+export { default as StyleSwitcher } from './StyleSwitcher/StyleSwitcher';
+export { default as Theme } from './Theme/Theme';
 export { default as Title } from './Title/Title';

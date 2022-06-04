@@ -1,3 +1,5 @@
+import { ThemeColors } from '../features/theme/theme.interface';
+
 export interface IMenuItem {
   route: string;
   name: string;
@@ -33,4 +35,9 @@ export interface IPortfilioCard {
   img: string;
   name: string;
   id: number;
+}
+
+export interface IColor {
+  name: string;
+  color: ThemeColors;
 }

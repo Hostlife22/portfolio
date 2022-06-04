@@ -1,0 +1,100 @@
+.styleSwitcher {
+  position: fixed;
+  top: 60px;
+  right: 0;
+  z-index: 101;
+  width: 200px;
+  padding: 15px;
+  background: var(--bg-black-100);
+  border: 1px solid var(--bg-black-50);
+  border-radius: 5px;
+  transform: translateX(100%);
+  transition: all 0.3s ease;
+}
+
+.styleSwitcher.open {
+  transform: translateX(-25px);
+}
+
+.styleSwitcher .sIcon {
+  position: absolute;
+  right: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  margin-right: 25px;
+  color: var(--text-black-900);
+  font-size: 20px;
+  text-align: center;
+  background: var(--bg-black-100);
+  border: 1px solid var(--bg-black-50);
+  border-radius: 50%;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.styleSwitcher .styleSwitcherToggler {
+  top: 0;
+}
+
+.styleSwitcher .styleSwitcherToggler svg {
+  animation: circle infinite 1.5s linear;
+}
+
+.styleSwitcher .dayNight {
+  top: 55px;
+}
+
+.styleSwitcher h4 {
+  margin: 0 0 10px;
+  color: var(--text-black-700);
+  font-weight: 600;
+  font-size: 16px;
+  text-transform: capitalize;
+}
+
+.styleSwitcher .colors {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.styleSwitcher .colors span {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.styleSwitcher .colorOne {
+  background: #ec1839;
+}
+
+.styleSwitcher .colorTwo {
+  background: #fa5b0f;
+}
+
+.styleSwitcher .colorThree {
+  background: #37b182;
+}
+
+.styleSwitcher .colorFour {
+  background: #1854b4;
+}
+
+.styleSwitcher .colorFive {
+  background: #f021b2;
+}
+
+@keyframes circle {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}

@@ -1,16 +1,47 @@
 @import url('https://fonts.googleapis.com/css2?family=Clicker+Script&family=Poppins:wght@200;300;400;500;600;700&display=swap');
 
-:root {
+/* :root {
   --bg-black-900: #f2f2fc;
   --bg-black-100: #fdf9ff;
   --bg-black-50: #e8dfec;
   --text-black-900: #302e4d;
   --text-black-700: #504e70;
+} */
+
+:root[data-color='red'] {
   --skin-color: #ec1839;
-  --skin-color2: #fa5b0f;
-  --skin-color3: #37b182;
-  --skin-color4: #1854b4;
-  --skin-color5: #f021b2;
+}
+
+:root[data-color='orange'] {
+  --skin-color: #fa5b0f;
+}
+
+:root[data-color='green'] {
+  --skin-color: #37b182;
+}
+
+:root[data-color='blue'] {
+  --skin-color: #1854b4;
+}
+
+:root[data-color='purple'] {
+  --skin-color: #f021b2;
+}
+
+:root[data-theme='light'] {
+  --bg-black-900: #f2f2fc;
+  --bg-black-100: #fdf9ff;
+  --bg-black-50: #e8dfec;
+  --text-black-900: #302e4d;
+  --text-black-700: #504e70;
+}
+
+:root[data-theme='dark'] {
+  --bg-black-900: #151515;
+  --bg-black-100: #222;
+  --bg-black-50: #393939;
+  --text-black-900: #fff;
+  --text-black-700: #e9e9e9;
 }
 
 body {
