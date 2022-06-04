@@ -16,3 +16,17 @@
   display: block;
   width: 100%;
 }
+
+@media (max-width: 991px) {
+  .portfolioItem {
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+}
+
+@media (max-width: 767px) {
+  .portfolioItem {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+}

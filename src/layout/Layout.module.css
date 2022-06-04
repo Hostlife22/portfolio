@@ -1,3 +1,9 @@
 .feed {
   padding-left: 270px;
 }
+
+@media (max-width: 1199px) {
+  .feed {
+    padding-left: 0;
+  }
+}

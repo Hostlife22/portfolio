@@ -4,3 +4,10 @@
   margin-top: 40px;
   padding: 0 15px;
 }
+
+@media (max-width: 767px) {
+  .skills {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+}

@@ -72,3 +72,14 @@ h3.myProfession {
   margin: auto;
   border-radius: 5px;
 }
+
+@media (max-width: 991px) {
+  .home .homeInfo {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+
+  .home .homeImg {
+    display: none;
+  }
+}
