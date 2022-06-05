@@ -21,7 +21,7 @@ function Home() {
 
   return (
     <Section className={styles.home}>
-      <Row>
+      <Row className={styles.homeRow}>
         <div className={styles.homeInfo}>
           <h3 className={styles.hello}>
             Hello, my name is <span className={styles.name}>Serafim Sen</span>
@@ -36,7 +36,9 @@ function Home() {
             I&apos; m web Designer with extensive experience for over 10 years. My expertise is to
             create and website design, graphic design, and many more...
           </p>
-          <Link href="/contact">Hire Me</Link>
+          <Link href="" btn>
+            Download CV
+          </Link>
         </div>
         <div className={styles.homeImg}>
           <img

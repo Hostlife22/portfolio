@@ -16,7 +16,6 @@ function PersonalInfo({ className }: IPersonalProps): JSX.Element {
       </Row>
       <Row>
         <div className={styles.buttons}>
-          <Link href="#">Download CV</Link>
           <Link href="/contact" className={styles.hireMe}>
             Hire Me
           </Link>

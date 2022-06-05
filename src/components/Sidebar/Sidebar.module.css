@@ -79,6 +79,10 @@
   background: var(--skin-color);
 }
 
+.aside .navToggle.open span {
+  background-color: transparent;
+}
+
 .aside .navToggle span::before {
   position: absolute;
   top: -6px;
@@ -89,6 +93,11 @@
   content: '';
 }
 
+.aside .navToggle.open span::before {
+  top: 0;
+  transform: rotate(45deg);
+}
+
 .aside .navToggle span::after {
   position: absolute;
   top: 6px;
@@ -97,6 +106,11 @@
   height: 2px;
   background: var(--skin-color);
   content: '';
+}
+
+.aside .navToggle.open span::after {
+  top: 0;
+  transform: rotate(-45deg);
 }
 
 .aside .nav {
@@ -128,5 +142,20 @@
 @media (max-width: 1199px) {
   .aside {
     left: -270px;
+    transition: all 0.3s ease-in-out;
+  }
+
+  .aside .navToggle {
+    left: 30px;
+    display: flex;
+    transition: all 0.3s ease-in-out;
+  }
+
+  .aside.open {
+    left: 0 !important;
+  }
+
+  .aside .navToggle.open {
+    left: 300px;
   }
 }

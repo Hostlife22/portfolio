@@ -3,6 +3,7 @@
   display: block;
   min-height: 100vh;
   padding: 0 30px;
+  overflow-x: hidden;
   background: var(--bg-black-900);
   opacity: 1;
 }

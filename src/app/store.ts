@@ -1,9 +1,11 @@
 import { Action, configureStore, ThunkAction } from '@reduxjs/toolkit';
+import menuReducer from '../features/menu/menuSlice';
 import themeReducer from '../features/theme/themeSlice';
 
 const store = configureStore({
   reducer: {
     theme: themeReducer,
+    menu: menuReducer,
   },
 });
 
