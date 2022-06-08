@@ -10,10 +10,10 @@ const CVSkillData = forwardRef(
     { className, list, ...props }: ICVSkillDataProps,
     ref: ForwardedRef<HTMLUListElement>,
   ): JSX.Element => {
-    const isCV = useAppSelector(selectScaleCV);
+    const iscv = useAppSelector(selectScaleCV);
 
     return (
-      <ul className={cn(styles.skillsData, className, { [styles.cv]: isCV })} ref={ref} {...props}>
+      <ul className={cn(styles.skillsData, className, { [styles.cv]: iscv })} ref={ref} {...props}>
         {list.map((item) => (
           <li className={styles.skillsName} key={item}>
             <span className={styles.skillsCircle} />

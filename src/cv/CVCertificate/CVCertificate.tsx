@@ -11,10 +11,10 @@ const CVCertificate = forwardRef(
     { className, ...props }: ICVCertificateProps,
     ref: ForwardedRef<HTMLDivElement>,
   ): JSX.Element => {
-    const isCV = useAppSelector(selectScaleCV);
+    const iscv = useAppSelector(selectScaleCV);
     return (
       <section
-        className={cn(styles.certificate, styles.section, className, { [styles.cv]: isCV })}
+        className={cn(styles.certificate, styles.section, className, { [styles.cv]: iscv })}
         ref={ref}
         id="certificates"
         {...props}>

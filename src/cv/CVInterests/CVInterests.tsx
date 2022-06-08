@@ -9,10 +9,10 @@ import { ICVInterestsProps } from './CVInterests.props';
 
 const CVInterests = forwardRef(
   ({ className, ...props }: ICVInterestsProps, ref: ForwardedRef<HTMLDivElement>): JSX.Element => {
-    const isCV = useAppSelector(selectScaleCV);
+    const iscv = useAppSelector(selectScaleCV);
     return (
       <section
-        className={cn(styles.interests, styles.section, className, { [styles.cv]: isCV })}
+        className={cn(styles.interests, styles.section, className, { [styles.cv]: iscv })}
         ref={ref}
         {...props}>
         <CVTitle decoration>Interests</CVTitle>

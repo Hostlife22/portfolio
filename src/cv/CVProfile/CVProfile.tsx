@@ -8,10 +8,10 @@ import { ICVProfileProps } from './CVProfile.props';
 
 const CVProfile = forwardRef(
   ({ className, ...props }: ICVProfileProps, ref: ForwardedRef<HTMLDivElement>): JSX.Element => {
-    const isCV = useAppSelector(selectScaleCV);
+    const iscv = useAppSelector(selectScaleCV);
     return (
       <section
-        className={cn(styles.profile, styles.section, className, { [styles.cv]: isCV })}
+        className={cn(styles.profile, styles.section, className, { [styles.cv]: iscv })}
         ref={ref}
         id="profile"
         {...props}>

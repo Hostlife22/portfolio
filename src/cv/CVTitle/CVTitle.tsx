@@ -10,14 +10,14 @@ const CVTitle = forwardRef(
     { children, className, decoration, ...props }: ICVTitleProps,
     ref: ForwardedRef<HTMLDivElement>,
   ): JSX.Element => {
-    const isCV = useAppSelector(selectScaleCV);
+    const iscv = useAppSelector(selectScaleCV);
 
     return (
       <div className={cn(styles.sectionTitleContainer, className)} ref={ref} {...props}>
         <h2
           className={cn(styles.sectionTitle, {
             [styles.titleShow]: decoration,
-            [styles.cv]: isCV,
+            [styles.cv]: iscv,
           })}>
           {children}
         </h2>

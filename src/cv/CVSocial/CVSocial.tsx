@@ -9,10 +9,10 @@ import { ICVSocialProps } from './CVSocial.props';
 
 const CVSocial = forwardRef(
   ({ className, ...props }: ICVSocialProps, ref: ForwardedRef<HTMLDivElement>): JSX.Element => {
-    const isCV = useAppSelector(selectScaleCV);
+    const iscv = useAppSelector(selectScaleCV);
     return (
       <section
-        className={cn(styles.social, styles.section, className, { [styles.cv]: isCV })}
+        className={cn(styles.social, styles.section, className, { [styles.cv]: iscv })}
         ref={ref}
         {...props}>
         <CVTitle>SOCIAL</CVTitle>

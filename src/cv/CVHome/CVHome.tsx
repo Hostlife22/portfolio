@@ -13,11 +13,11 @@ const CVHome = forwardRef(
     { children, className, handler, ...props }: ICVHomeProps,
     ref: ForwardedRef<HTMLDivElement>,
   ): JSX.Element => {
-    const isCV = useAppSelector(selectScaleCV);
+    const iscv = useAppSelector(selectScaleCV);
 
     return (
       <section
-        className={cn(styles.home, className, { [styles.cv]: isCV })}
+        className={cn(styles.home, className, { [styles.cv]: iscv })}
         ref={ref}
         {...props}
         id="home">

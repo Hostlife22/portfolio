@@ -8,10 +8,10 @@ import { ICVLanguagesProps } from './CVLanguages.props';
 
 const CVLanguages = forwardRef(
   ({ className, ...props }: ICVLanguagesProps, ref: ForwardedRef<HTMLDivElement>): JSX.Element => {
-    const isCV = useAppSelector(selectScaleCV);
+    const iscv = useAppSelector(selectScaleCV);
     return (
       <section
-        className={cn(styles.languages, styles.section, className, { [styles.cv]: isCV })}
+        className={cn(styles.languages, styles.section, className, { [styles.cv]: iscv })}
         ref={ref}
         {...props}>
         <CVTitle decoration>Languages</CVTitle>

@@ -10,10 +10,10 @@ import { ICVReferencesProps } from './CVReferences.props';
 
 const CVReferences = forwardRef(
   ({ className, ...props }: ICVReferencesProps, ref: ForwardedRef<HTMLDivElement>): JSX.Element => {
-    const isCV = useAppSelector(selectScaleCV);
+    const iscv = useAppSelector(selectScaleCV);
     return (
       <section
-        className={cn(styles.references, styles.section, className, { [styles.cv]: isCV })}
+        className={cn(styles.references, styles.section, className, { [styles.cv]: iscv })}
         ref={ref}
         id="references"
         {...props}>

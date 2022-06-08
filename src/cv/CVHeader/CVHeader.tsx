@@ -10,11 +10,11 @@ import { ICVHeaderProps } from './CVHeader.props';
 const CVTitle = forwardRef(
   ({ className, ...props }: ICVHeaderProps, ref: ForwardedRef<HTMLDivElement>): JSX.Element => {
     const [showMenu, setShowMenu] = React.useState<boolean>(false);
-    const isCV = useAppSelector(selectScaleCV);
+    const iscv = useAppSelector(selectScaleCV);
 
     return (
       <header className={cn(styles.oneHeader, className)} ref={ref} {...props}>
-        <nav className={cn(styles.nav, styles.bdContainer, { [styles.cv]: isCV })}>
+        <nav className={cn(styles.nav, styles.bdContainer, { [styles.cv]: iscv })}>
           <a href="#" className={styles.navLogo}>
             Serafim
           </a>
