@@ -236,7 +236,3 @@ export const colors: IColor[] = [
     color: ThemeColors.Purple,
   },
 ];
-
-// export const getColor = (color: string) => {
-//   const obj = { red: IColor, Orange: 'orange', Green: 'green', Blue: 'blue', Purple: 'purple' };
-// };

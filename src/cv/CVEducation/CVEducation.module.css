@@ -1,0 +1,79 @@
+.section.cv {
+  padding: 1.1rem 0 0.8rem;
+}
+
+.cv .educationContainer {
+  gap: 1rem;
+}
+
+.cv .educationTime {
+  padding-right: 0.5rem;
+}
+
+.cv .educationRounder {
+  width: 11px;
+  height: 11px;
+  margin-top: 0.22rem;
+}
+
+.cv .educationLine {
+  width: 1px;
+  height: 110%;
+  transform: translate(5px, 0);
+}
+
+.cv .educationData {
+  gap: 0.25rem;
+}
+
+.section {
+  padding: 1.5rem 0;
+}
+
+.bdGrid {
+  display: grid;
+  gap: 1.5rem;
+}
+
+.educationContent {
+  display: flex;
+}
+
+.educationTime {
+  padding-right: 1rem;
+}
+
+.educationRounder {
+  position: relative;
+  display: block;
+  width: 16px;
+  height: 16px;
+  margin-top: 0.25rem;
+  background-color: var(--skin-color);
+  border-radius: 50%;
+}
+
+.educationLine {
+  display: block;
+  width: 2px;
+  height: 110%;
+  background-color: var(--skin-color);
+  transform: translate(7px, 0);
+}
+
+.educationData {
+  gap: 0.5rem;
+}
+
+.educationTitle {
+  font-size: var(--h3-font-size);
+}
+
+.educationStudies {
+  color: var(--text-black-900);
+  font-size: var(--small-font-size);
+}
+
+.educationYear {
+  font-size: var(--smaller-font-size);
+}

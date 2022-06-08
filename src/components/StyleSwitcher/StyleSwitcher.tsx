@@ -42,7 +42,8 @@ function StyleSwitcher({ className }: IStyleSwitcherProps): JSX.Element {
     <div className={cn(styles.styleSwitcher, className, { [styles.open]: setting })}>
       <div
         className={cn(styles.styleSwitcherToggler, styles.sIcon, styles[`${color}`])}
-        onClick={() => setSetting((prev) => !prev)}>
+        onClick={() => setSetting((prev) => !prev)}
+        title="Theme Colors">
         <FaCog />
       </div>
       <Theme className={styles.sIcon} />

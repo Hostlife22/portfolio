@@ -36,8 +36,8 @@ function Home() {
             I&apos; m web Designer with extensive experience for over 10 years. My expertise is to
             create and website design, graphic design, and many more...
           </p>
-          <Link href="" btn>
-            Download CV
+          <Link href="/cv" target="_blank">
+            Open CV
           </Link>
         </div>
         <div className={styles.homeImg}>

@@ -1,0 +1,40 @@
+.section.cv {
+  padding: 1.1rem 0 0.8rem;
+}
+
+.cv .interestsContainer {
+  column-gap: 2.5rem;
+}
+
+.section {
+  padding: 1.5rem 0;
+}
+
+.bdGrid {
+  display: grid;
+  gap: 1.5rem;
+}
+
+.interestsContainer {
+  grid-template-columns: repeat(3, 1fr);
+  margin-top: var(--mb-2);
+}
+
+.interestsContent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.interestsContent svg {
+  margin-bottom: 0.25rem;
+  color: var(--text-black-700);
+  font-size: 1.5rem;
+}
+
+@media screen and (min-width: 968px) {
+  .interestsContainer {
+    grid-template-columns: repeat(4, max-content);
+    column-gap: 3.5rem;
+  }
+}

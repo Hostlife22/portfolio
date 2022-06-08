@@ -6,4 +6,5 @@ export interface ILinkProps
   children: ReactNode;
   btn?: boolean;
   type?: 'submit';
+  target?: '_blank' | '_self' | '_parent' | '_top';
 }

@@ -24,7 +24,8 @@ function Theme({ className }: IThemeProps): JSX.Element {
   return (
     <div
       className={cn(styles.dayNight, className, theme === 'dark' ? styles.dark : styles.light)}
-      onClick={handleChange}>
+      onClick={handleChange}
+      title="Theme">
       {theme === 'dark' ? <FaMoon /> : <FaSun />}
     </div>
   );

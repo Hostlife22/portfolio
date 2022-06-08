@@ -1,0 +1,16 @@
+.section.cv {
+  padding: 1.1rem 0 0.8rem;
+}
+
+.section {
+  padding: 1.5rem 0;
+}
+
+.bdGrid {
+  display: grid;
+  gap: 1.5rem;
+}
+
+.skillsContent {
+  grid-template-columns: repeat(2, 1fr);
+}

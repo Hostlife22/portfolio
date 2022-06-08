@@ -1,0 +1,17 @@
+.section.cv {
+  padding: 1.1rem 0 0.8rem;
+}
+
+.section {
+  padding: 1.5rem 0;
+}
+
+.profileDescription {
+  text-align: center;
+}
+
+@media screen and (min-width: 968px) {
+  .profileDescription {
+    text-align: initial;
+  }
+}

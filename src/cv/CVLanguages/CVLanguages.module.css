@@ -1,0 +1,39 @@
+.section.cv {
+  padding: 1.1rem 0 0.8rem;
+}
+
+.section {
+  padding: 1.5rem 0;
+}
+
+.bdGrid {
+  display: grid;
+  gap: 1.5rem;
+}
+
+.languagesContent {
+  grid-template-columns: repeat(2, 1fr);
+  gap: 0;
+}
+
+.languagesName {
+  display: flex;
+  align-items: center;
+  margin-bottom: var(--mb-1);
+}
+
+.languagesCircle {
+  display: inline-block;
+  width: 5px;
+  height: 5px;
+  margin-right: 0.75rem;
+  background-color: var(--text-black-700);
+  border-radius: 50%;
+}
+
+@media screen and (min-width: 968px) {
+  .languagesContent {
+    grid-template-columns: repeat(3, max-content);
+    column-gap: 3.5rem;
+  }
+}

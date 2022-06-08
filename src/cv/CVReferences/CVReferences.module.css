@@ -1,0 +1,22 @@
+.section.cv {
+  padding: 1.1rem 0 0.8rem;
+}
+
+.cv .certificateContainer {
+  gap: 1rem;
+}
+
+.section {
+  padding: 1.5rem 0;
+}
+
+.bdGrid {
+  display: grid;
+  gap: 1.5rem;
+}
+
+@media screen and (min-width: 968px) {
+  .referencesContainer {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}

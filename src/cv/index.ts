@@ -1,0 +1,16 @@
+export { default as CVCertificate } from './CVCertificate/CVCertificate';
+export { default as CVEducation } from './CVEducation/CVEducation';
+export { default as CVExperience } from './CVExperience/CVExperience';
+export { default as CVHeader } from './CVHeader/CVHeader';
+export { default as CVHome } from './CVHome/CVHome';
+export { default as CVInterests } from './CVInterests/CVInterests';
+export { default as CVLanguages } from './CVLanguages/CVLanguages';
+export { default as CVProfile } from './CVProfile/CVProfile';
+export { default as CVReferenceItem } from './CVReferenceItem/CVReferenceItem';
+export { default as CVReferences } from './CVReferences/CVReferences';
+export { default as CVResume } from './CVResume/CVResume';
+export { default as CVScroll } from './CVScroll/CVScroll';
+export { default as CVSkillData } from './CVSkillData/CVSkillData';
+export { default as CVSkills } from './CVSkills/CVSkills';
+export { default as CVSocial } from './CVSocial/CVSocial';
+export { default as CVTitle } from './CVTitle/CVTitle';

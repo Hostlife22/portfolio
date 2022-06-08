@@ -1,0 +1,21 @@
+.bdGrid {
+  display: grid;
+  gap: 1.5rem;
+}
+
+.referencesContent {
+  gap: 0.25rem;
+}
+
+.referencesSubtitle {
+  color: var(--text-black-700);
+}
+
+.referencesSubtitle,
+.referencesContact {
+  font-size: var(--smaller-font-size);
+}
+
+.referencesTitle {
+  font-size: var(--h3-font-size);
+}

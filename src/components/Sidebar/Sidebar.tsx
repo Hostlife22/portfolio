@@ -42,7 +42,7 @@ function Sidebar() {
     <div className={cn(styles.aside, { [styles.open]: isOpen })}>
       <div className={styles.logo}>
         <Link to="/">
-          <span>A</span>tlas
+          <span>H</span>ostlife
         </Link>
       </div>
       <div className={cn(styles.navToggle, { [styles.open]: isOpen })} onClick={handleClick}>

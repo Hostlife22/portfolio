@@ -1,0 +1,127 @@
+.cv .changeTheme,
+.cv .generatePdf {
+  display: none;
+}
+
+.cv .bdContainer {
+  max-width: 595px;
+}
+
+.cv .homeImg {
+  width: 90px;
+  height: 90px;
+}
+
+.cv .homeContainer {
+  gap: 1.5rem;
+}
+
+.cv .homeData {
+  gap: 0.25rem;
+}
+
+.cv .homeAdress {
+  gap: 0.75rem;
+}
+
+.cv .homeImg svg {
+  font-size: 1rem;
+}
+
+.cv .section {
+  padding: 1.1rem 0 0.8rem;
+}
+
+.section {
+  padding: 1.5rem 0;
+}
+
+.bdContainer {
+  width: calc(100% - 3rem);
+  max-width: 968px;
+  margin-right: var(--mb-3);
+  margin-left: var(--mb-3);
+}
+
+.bdGrid {
+  display: grid;
+  gap: 1.5rem;
+}
+
+.home {
+  position: relative;
+}
+
+.homeContainer {
+  gap: 3rem;
+}
+
+.homeData {
+  gap: 0.5rem;
+  text-align: center;
+}
+
+.homeImg {
+  justify-self: center;
+  width: 120px;
+  height: 120px;
+  margin-bottom: var(--mb-1);
+  border-radius: 50%;
+}
+
+.homeTitle {
+  font-size: var(--h1-font-size);
+}
+
+.homeTitle b {
+  color: var(--skin-color);
+}
+
+.homeProfession {
+  margin-bottom: var(--mb-1);
+  font-size: var(--normal-font-size);
+}
+
+.homeAdress {
+  gap: 1rem;
+}
+
+.homeInformation {
+  display: flex;
+  align-items: center;
+  font-size: var(--small-font-size);
+}
+
+.homeInformation svg {
+  margin-right: 0.25rem;
+  font-size: 1.2rem;
+}
+
+.generatePdf {
+  position: absolute;
+  top: 2.2rem;
+  left: 0;
+  display: none;
+  color: var(--text-black-700);
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+.generatePdf:hover {
+  color: var(--text-black-900);
+}
+
+@media screen and (min-width: 968px) {
+  .bdContainer {
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .generatePdf {
+    display: inline-block;
+  }
+
+  .homeContainer {
+    gap: 1.5rem;
+  }
+}

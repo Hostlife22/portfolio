@@ -1,0 +1,41 @@
+.section.cv {
+  padding: 1.1rem 0 0.8rem;
+}
+
+.cv .socialContainer {
+  gap: 0.75rem;
+}
+
+.cv .socialLink svg {
+  font-size: 1rem;
+}
+
+.section {
+  padding: 1.5rem 0;
+}
+
+.bdGrid {
+  display: grid;
+  gap: 1.5rem;
+}
+
+.socialContainer {
+  grid-template-columns: max-content;
+  gap: 1rem;
+}
+
+.socialLink {
+  display: flex;
+  align-items: center;
+  color: var(--text-black-700);
+  font-size: var(--small-font-size);
+}
+
+.socialLink:hover {
+  color: var(--text-black-900);
+}
+
+.socialLink svg {
+  margin-right: 0.25rem;
+  font-size: 1.2rem;
+}
