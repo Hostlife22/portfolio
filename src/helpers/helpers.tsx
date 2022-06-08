@@ -13,6 +13,7 @@ import {
   FaUserAlt,
 } from 'react-icons/fa';
 import { ThemeColors } from '../features/theme/theme.interface';
+import { ImgCrypto, ImgNetflix, ImgOwl, ImgTesla, ImgTravelya, ImgYoutube } from '../images';
 import {
   ICardItem,
   IColor,
@@ -183,34 +184,47 @@ export const services: IServiceCard[] = [
 
 export const portfolio: IPortfilioCard[] = [
   {
-    img: 'https://via.placeholder.com/300x200',
+    img: ImgOwl,
     name: 'Project 2',
     id: 2,
+    githubLink: 'https://github.com/Hostlife22/next-top-app',
+    projectLink: 'https://next-top-app-ten.vercel.app/',
   },
   {
-    img: 'https://via.placeholder.com/300x200',
-    name: 'Project 3',
-    id: 3,
-  },
-  {
-    img: 'https://via.placeholder.com/300x200',
-    name: 'Project 4',
-    id: 4,
-  },
-  {
-    img: 'https://via.placeholder.com/300x200',
+    img: ImgYoutube,
     name: 'Project 5',
     id: 5,
+    githubLink: 'https://github.com/Hostlife22/youtube-clone-app',
+    projectLink: 'https://clone-4994c.web.app',
   },
   {
-    img: 'https://via.placeholder.com/300x200',
+    img: ImgCrypto,
+    name: 'Project 3',
+    id: 3,
+    githubLink: 'https://github.com/Hostlife22/cryptocurrency',
+    projectLink: 'https://eclectic-buttercream-17464e.netlify.app/',
+  },
+  {
+    img: ImgNetflix,
+    name: 'Project 4',
+    id: 4,
+    githubLink: 'https://github.com/Hostlife22/react-netflix-clone',
+    projectLink: 'https://netflix-clone-ae764.web.app/',
+  },
+
+  {
+    img: ImgTesla,
     name: 'Project 6',
     id: 6,
+    githubLink: 'https://github.com/Hostlife22/tesla-clone-app',
+    projectLink: 'https://angry-sinoussi-fee981.netlify.app/',
   },
   {
-    img: 'https://via.placeholder.com/300x200',
+    img: ImgTravelya,
     name: 'Project 7',
     id: 7,
+    githubLink: 'https://github.com/Hostlife22/react-tailwind-website',
+    projectLink: 'https://peaceful-rosalind-8f71ec.netlify.app/',
   },
 ];
 

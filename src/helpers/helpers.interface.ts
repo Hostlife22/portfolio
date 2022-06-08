@@ -35,6 +35,8 @@ export interface IPortfilioCard {
   img: string;
   name: string;
   id: number;
+  projectLink: string;
+  githubLink: string;
 }
 
 export interface IColor {
