@@ -1,5 +1,5 @@
 import cn from 'classnames';
-import React, { ForwardedRef, forwardRef } from 'react';
+import { ForwardedRef, forwardRef } from 'react';
 import { CVTitle } from '..';
 import { selectScaleCV } from '../../features/scaleCV/scaleCVSlice';
 import { useAppSelector } from '../../hooks';
@@ -17,9 +17,12 @@ const CVProfile = forwardRef(
         {...props}>
         <CVTitle>Profile</CVTitle>
         <p className={styles.profileDescription}>
-          I am a person, responsible with their work during working hours. Finish various technical
-          and higher studies at large universities. I have several years of experience and
-          achievements in the labor field.
+          Hello. I am a person, responsible with their work during working hours. I&apos;m
+          interested in design and programming. I like to work on projects that entertain and
+          inform.
+          {/* I love exploring new technologies and being a practitioner, I like to stay on top
+          of latest trends. I try to leave every line of code I write more readable, accessible, and
+          modular. */}
         </p>
       </section>
     );

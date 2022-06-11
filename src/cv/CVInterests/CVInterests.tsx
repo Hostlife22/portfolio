@@ -1,5 +1,5 @@
 import cn from 'classnames';
-import React, { ForwardedRef, forwardRef } from 'react';
+import { ForwardedRef, forwardRef } from 'react';
 import { BiBook, BiCar, BiDumbbell, BiHeadphone } from 'react-icons/bi';
 import { CVTitle } from '..';
 import { selectScaleCV } from '../../features/scaleCV/scaleCVSlice';
@@ -15,7 +15,7 @@ const CVInterests = forwardRef(
         className={cn(styles.interests, styles.section, className, { [styles.cv]: iscv })}
         ref={ref}
         {...props}>
-        <CVTitle decoration>Interests</CVTitle>
+        <CVTitle>Interests</CVTitle>
         <div className={cn(styles.interestsContainer, styles.bdGrid)}>
           <div className={styles.interestsContent}>
             <BiHeadphone />

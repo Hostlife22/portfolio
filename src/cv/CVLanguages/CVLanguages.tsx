@@ -1,5 +1,5 @@
 import cn from 'classnames';
-import React, { ForwardedRef, forwardRef } from 'react';
+import { ForwardedRef, forwardRef } from 'react';
 import { CVTitle } from '..';
 import { selectScaleCV } from '../../features/scaleCV/scaleCVSlice';
 import { useAppSelector } from '../../hooks';
@@ -14,7 +14,7 @@ const CVLanguages = forwardRef(
         className={cn(styles.languages, styles.section, className, { [styles.cv]: iscv })}
         ref={ref}
         {...props}>
-        <CVTitle decoration>Languages</CVTitle>
+        <CVTitle>Languages</CVTitle>
         <div className={styles.languagesContainer}>
           <ul className={cn(styles.languagesContent, styles.bdGrid)}>
             <li className={styles.languagesName}>
@@ -22,9 +22,6 @@ const CVLanguages = forwardRef(
             </li>
             <li className={styles.languagesName}>
               <span className={styles.languagesCircle} /> Russian
-            </li>
-            <li className={styles.languagesName}>
-              <span className={styles.languagesCircle} /> Belarusian
             </li>
           </ul>
         </div>

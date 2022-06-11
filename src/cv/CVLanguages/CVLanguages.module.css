@@ -19,6 +19,7 @@
 .languagesName {
   display: flex;
   align-items: center;
+  justify-content: center;
   margin-bottom: var(--mb-1);
 }
 
@@ -33,7 +34,7 @@
 
 @media screen and (min-width: 968px) {
   .languagesContent {
-    grid-template-columns: repeat(3, max-content);
+    grid-template-columns: repeat(2, max-content);
     column-gap: 3.5rem;
   }
 }

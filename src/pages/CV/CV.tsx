@@ -61,14 +61,14 @@ function CV(): JSX.Element {
             <CVSocial />
             <CVProfile />
             <CVEducation />
-            <CVSkills />
+            <CVLanguages />
+            <CVInterests />
           </div>
           <div className={styles.resumeRight}>
             <CVExperience />
             <CVCertificate />
+            <CVSkills />
             <CVReferences />
-            <CVLanguages />
-            <CVInterests />
           </div>
         </div>
       </main>

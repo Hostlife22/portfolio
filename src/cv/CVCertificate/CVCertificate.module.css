@@ -15,7 +15,18 @@
   gap: 1.5rem;
 }
 
+.certificateCircle {
+  display: inline-block;
+  width: 5px;
+  height: 5px;
+  margin-right: 0.75rem;
+  background-color: var(--text-black-700);
+  border-radius: 50%;
+}
+
 .certificateTitle {
+  display: flex;
+  align-items: center;
   margin-bottom: var(--mb-1);
   font-size: var(--h3-font-size);
 }

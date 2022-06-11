@@ -47,62 +47,74 @@ export const cvMenu: ICVMenuItem[] = [
   },
   {
     route: 'references',
-    name: 'References',
+    name: 'Pet projects',
     icon: <BiLinkExternal />,
   },
 ];
 
 export const educationInfo: IEducationInfo[] = [
   {
-    title: 'MASTER OF DESIGN',
-    studies: 'University od Studies',
-    years: '2010 - 2015',
+    title: 'Computers, computer systems, and networks',
+    studies: 'Grodno state Polytechnic College',
+    years: '2015 - 2019',
   },
   {
-    title: 'WEB DEVELOPER',
-    studies: 'Institute Studies',
-    years: '2016 - 2019',
+    title: 'HTML/CSS developer',
+    studies: 'Html academy',
+    years: '2018 - 2019',
   },
   {
-    title: 'MASTER IN UI/UX',
-    studies: 'Institute Studies',
-    years: '2019 - 2022',
+    title: 'Front-End Developer',
+    studies: 'Gromcode University',
+    years: '2021 - 2022',
   },
 ];
 
 export const experienceInfo: IExperenceInfo[] = [
   {
-    title: 'MASTER OF DESIGN',
-    company: 'From 2013 to 2015 | Tech Soft',
+    title: 'FRONT-END WEB DEVELOPER',
+    company: 'From 2018 to 2019 | Freelance',
     description:
-      'Work in this company dedicating the best responsibility in the area that corresponds, delivering the best results for the company and improving productivity',
+      'Produced stunning visual elements of web applications by translating UI/UX design wireframes into code while producing high quality, reusable markup using HTML5 and CSS3.',
   },
   {
-    title: 'UI / UX DESIGN AREA',
-    company: 'From 2017 to 2019 | Adobe Inc',
+    title: 'Operator of automatic and semi-automatic lines',
+    company: 'From 2018 to 2019 | Radiovolna',
     description:
-      'Work in this company dedicating the best responsibility in the area that corresponds, delivering the best results for the company and improving productivity',
+      'Work in this company dedicating the best responsibility in the area that corresponds, delivering the best results for the company and improving productivity. Set up the software of machine tools for the production of blanks from non-ferrous metal or non-ferrous metal alloy',
   },
   {
-    title: 'MOBILE APPLICATION DEVELOPER',
-    company: 'From 2019 to 2022 | App Tech',
+    title: 'REACT DEVELOPER',
+    company: 'From 2021 to 2022 | Pet project development',
     description:
-      'Work in this company dedicating the best responsibility in the area that corresponds, delivering the best results for the company and improving productivity',
+      'I have worked on many various projects as a web developer for the past  one year. I have good experience in both front- and backend development. I have programmed large websites and web services both REST. My main strength lies in Javascript and CSS, more specifically in  React with Redux,  Next.js, SASS, LESS and CSS Modules.',
   },
 ];
 
 export const references: IReferenceItem[] = [
   {
-    subtitle: 'Sr. Director',
-    title: 'Mr. Clay Do',
-    phone: '+375 29 740 1127',
+    title: 'Aggregator',
+    description: 'Efficient search and comparison of online training courses.',
     email: 'sima.serafim2@mail.ru',
+    appUrl: 'https://next-top-app-ten.vercel.app/',
+    githubUrl: 'https://github.com/Hostlife22/next-top-app',
+    skills: [
+      'Next.js, TypeScript',
+      'React-hook-form, framer-motion',
+      'Axios, date-fns, Eslint, Stylelint',
+    ],
   },
   {
-    subtitle: 'Mag. Developer',
-    title: 'Mr. Robbinson Bass',
-    phone: '+375 29 740 1127',
+    title: 'Youtube clone',
+    description: 'Implemented Authorization, search, subscriptions. Youtube API requests.',
     email: 'sima.serafim2@mail.ru',
+    appUrl: 'https://clone-4994c.web.app',
+    githubUrl: 'https://github.com/Hostlife22/youtube-clone-app',
+    skills: [
+      'React, TypeScript, Redux-toolkit',
+      'React-router-dom, Momentjs',
+      'Styled-components, Firebase, Axios',
+    ],
   },
 ];
 

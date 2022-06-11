@@ -3,19 +3,49 @@
   gap: 1.5rem;
 }
 
+.cv .referencesContact li {
+  margin: 0;
+  font-size: var(--smaller-font-size);
+}
+
 .referencesContent {
   gap: 0.25rem;
 }
 
 .referencesSubtitle {
   color: var(--text-black-700);
+  font-size: var(--smaller-font-size);
+  transition: all 0.3s;
 }
 
-.referencesSubtitle,
-.referencesContact {
-  font-size: var(--smaller-font-size);
+.referenceLinks {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  color: var(--skin-color);
+}
+
+.referencesSubtitle svg {
+  color: var(--skin-color);
+}
+
+.referencesSubtitle:hover {
+  border-bottom: 1px solid var(--skin-color);
+  opacity: 0.7;
+}
+
+.referencesContact li {
+  margin: 5px 0;
+  font-size: 14px;
 }
 
 .referencesTitle {
   font-size: var(--h3-font-size);
+}
+
+@media screen and (min-width: 968px) {
+  .referenceLinks {
+    justify-content: start;
+  }
 }

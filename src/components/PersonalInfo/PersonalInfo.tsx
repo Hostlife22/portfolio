@@ -1,6 +1,5 @@
 import cn from 'classnames';
-import React from 'react';
-import { Link, Row } from '..';
+import { Link, Row, TagSkills } from '..';
 import { personalInfo } from '../../helpers/helpers';
 import InfoItem from '../InfoItem/InfoItem';
 import styles from './PersonalInfo.module.css';
@@ -21,6 +20,7 @@ function PersonalInfo({ className }: IPersonalProps): JSX.Element {
           </Link>
         </div>
       </Row>
+      <TagSkills />
     </div>
   );
 }

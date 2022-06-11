@@ -1,15 +1,12 @@
 import {
   FaBriefcase,
-  FaBullhorn,
   FaCalendar,
-  FaCode,
   FaComments,
   FaHome,
   FaLaptopCode,
   FaListUl,
   FaMobileAlt,
   FaPalette,
-  FaSearch,
   FaUserAlt,
 } from 'react-icons/fa';
 import { ThemeColors } from '../features/theme/theme.interface';
@@ -63,15 +60,11 @@ export const personalInfo: IpersonalInfo[] = [
   },
   {
     title: 'Website',
-    value: 'www.domain.com',
+    value: 'github.com/Hostlife22',
   },
   {
     title: 'Email',
     value: 'sima.serafim2@mail.ru',
-  },
-  {
-    title: 'Degree',
-    value: 'CS',
   },
   {
     title: 'Phone',
@@ -81,10 +74,6 @@ export const personalInfo: IpersonalInfo[] = [
     title: 'City',
     value: 'Grodno',
   },
-  {
-    title: 'Freelance',
-    value: 'Available',
-  },
 ];
 
 export const skills: ISkill[] = [
@@ -93,16 +82,24 @@ export const skills: ISkill[] = [
     percent: 76,
   },
   {
-    name: 'JS',
-    percent: 86,
+    name: 'JavaScript',
+    percent: 80,
   },
   {
-    name: 'PHP',
-    percent: 66,
+    name: 'TypeScript',
+    percent: 78,
+  },
+  {
+    name: 'React',
+    percent: 88,
+  },
+  {
+    name: 'Next',
+    percent: 82,
   },
   {
     name: 'HTML',
-    percent: 96,
+    percent: 92,
   },
   {
     name: 'Bootstrap',
@@ -113,26 +110,59 @@ export const skills: ISkill[] = [
 export const education: ICardItem[] = [
   {
     icon: <FaCalendar />,
-    years: '2013 - 2015',
-    title: 'Master in Computer Science',
+    years: '2015 - 2019',
+    title: 'Computers, computer systems, and networks',
     description:
-      'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam mollitia quae unde fugiat, tempora placeat at maiores ea impedit aspernatur labore numquam autem cum beatae.',
+      'I graduated from the Grodno State Polytechnic College. I have comprehensive knowledge in the field of both software and hardware of computer technology',
     id: 1,
   },
   {
     icon: <FaCalendar />,
-    years: '2013 - 2015',
-    title: 'Master in Computer Science',
+    years: '2018 - 2019',
+    title: 'HTML/CSS developer - HTML Academy',
     description:
-      'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam mollitia quae unde fugiat, tempora placeat at maiores ea impedit aspernatur labore numquam autem cum beatae.',
+      'Learning to create web pages. Creating a website according to a design layout, developing an adaptive and responsive layout for various devices using HTML, CSS.',
     id: 2,
   },
   {
     icon: <FaCalendar />,
-    years: '2013 - 2015',
-    title: 'Master in Computer Science',
+    years: '2021 - 2022',
+    title: 'Front-End Developer - Gromcode University',
     description:
-      'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam mollitia quae unde fugiat, tempora placeat at maiores ea impedit aspernatur labore numquam autem cum beatae.',
+      'Learning to develop front-end applications based on Javascript and, in particular, the React library. Various aspects of Redux and using it to develop applications based on React-Redux, as well as using Fetch for client-server communication and using the REST API on the server side.',
+    id: 3,
+  },
+  {
+    icon: <FaCalendar />,
+    years: 'from 2021 untill today',
+    title: '',
+    description: 'Learning new technologies ',
+    id: 3,
+  },
+];
+export const experience: ICardItem[] = [
+  {
+    icon: <FaCalendar />,
+    years: '2018 - 2019',
+    title: 'Operator of automatic and semi-automatic lines',
+    description:
+      'Working at Radiovolna OJSC dedicating the best responsibility in the area that corresponds, delivering the best results for the company and improving productivity. The work consisted in setting up the software of machine tools for the production of blanks from non-ferrous metal or non-ferrous metal alloy',
+    id: 1,
+  },
+  {
+    icon: <FaCalendar />,
+    years: '2018 - 2019',
+    title: 'Front-end WEB Developer - Freelance',
+    description:
+      'Produced stunning visual elements of web applications by translating UI/UX design wireframes into code while producing high quality, reusable markup using HTML5 and CSS3.',
+    id: 2,
+  },
+  {
+    icon: <FaCalendar />,
+    years: '2021 - 2022',
+    title: 'Front-End Developer - Pet project development',
+    description:
+      'I have worked on many various projects as a web developer for the past one year. I have experience in both front- and backend development. I have programmed  websites and web services both REST. My main strength lies in Javascript and CSS, more specifically in React with Redux, Next.js, SASS, LESS and CSS Modules.                            ',
     id: 3,
   },
 ];
@@ -140,45 +170,24 @@ export const education: ICardItem[] = [
 export const services: IServiceCard[] = [
   {
     icon: <FaMobileAlt />,
-    title: 'Web Design',
+    title: 'HTML & CSS Responsive Web Design',
     description:
-      'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam mollitia quae unde fugiat, tempora placeat at maiores ea impedit aspernatur labore numquam autem cum beatae.',
+      'Responsive website development where CSS is at the heart of front end development along with JavaScript and HTML',
     id: 1,
   },
   {
     icon: <FaLaptopCode />,
-    title: 'Web Design',
+    title: 'React JS Development',
     description:
-      'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam mollitia quae unde fugiat, tempora placeat at maiores ea impedit aspernatur labore numquam autem cum beatae.',
+      'ReactJS is renowned for its extensibility, adjustability, and convenience. Application development for your business, including  mobile application user interfaces',
     id: 2,
   },
   {
     icon: <FaPalette />,
-    title: 'Web Design',
+    title: 'Node.js Development',
     description:
-      'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam mollitia quae unde fugiat, tempora placeat at maiores ea impedit aspernatur labore numquam autem cum beatae.',
+      "Develop dynamic web page content before the page is sent to the end user's web browser, using event-driven programming to communicate with web servers through speedy JavaScript interpreters",
     id: 3,
-  },
-  {
-    icon: <FaCode />,
-    title: 'Web Design',
-    description:
-      'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam mollitia quae unde fugiat, tempora placeat at maiores ea impedit aspernatur labore numquam autem cum beatae.',
-    id: 4,
-  },
-  {
-    icon: <FaSearch />,
-    title: 'Web Design',
-    description:
-      'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam mollitia quae unde fugiat, tempora placeat at maiores ea impedit aspernatur labore numquam autem cum beatae.',
-    id: 5,
-  },
-  {
-    icon: <FaBullhorn />,
-    title: 'Web Design',
-    description:
-      'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam mollitia quae unde fugiat, tempora placeat at maiores ea impedit aspernatur labore numquam autem cum beatae.',
-    id: 6,
   },
 ];
 

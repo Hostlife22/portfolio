@@ -1,5 +1,5 @@
 import cn from 'classnames';
-import React, { ForwardedRef, forwardRef } from 'react';
+import { ForwardedRef, forwardRef } from 'react';
 import { CVTitle } from '..';
 import { selectScaleCV } from '../../features/scaleCV/scaleCVSlice';
 import { useAppSelector } from '../../hooks';
@@ -20,33 +20,18 @@ const CVCertificate = forwardRef(
         {...props}>
         <CVTitle decoration>Certificates</CVTitle>
 
-        <div className={cn(styles.certificateContainer, styles.bdGrid)}>
+        <div className={cn(styles.certificateContainer)}>
           <div className={styles.certificateContent}>
             <h3 className={styles.certificateTitle}>
-              Certified for compliance in the work area (2012)
+              <span className={styles.certificateCircle} />
+              Certificate of completion of training in html/css developer (2019)
             </h3>
-            <p className={styles.certificateDescription}>
-              For meeting the expectations of leading the team to work the specified tasks in the
-              labor field.
-            </p>
           </div>
           <div className={styles.certificateContent}>
             <h3 className={styles.certificateTitle}>
-              Certificate of attendance on computer technology.
+              <span className={styles.certificateCircle} />
+              Profession "Front end developer" from Gromcode University (2022)
             </h3>
-            <p className={styles.certificateDescription}>
-              For meeting the expectations of leading the team to work the specified tasks in the
-              labor field.
-            </p>
-          </div>
-          <div className={styles.certificateContent}>
-            <h3 className={styles.certificateTitle}>
-              Achievement medal for productivity excellence during the year (2019)
-            </h3>
-            <p className={styles.certificateDescription}>
-              For meeting the expectations of leading the team to work the specified tasks in the
-              labor field.
-            </p>
           </div>
         </div>
       </section>

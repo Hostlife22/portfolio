@@ -1,11 +1,13 @@
 .serviceItem {
   flex: 0 0 33.33%;
   max-width: 33.33%;
+  min-height: 345px;
   margin-bottom: 30px;
   padding: 0 15px;
 }
 
 .serviceItem .serviceItemIner {
+  height: 100%;
   padding: 30px 15px;
   text-align: center;
   background-color: var(--bg-black-100);
@@ -70,5 +72,6 @@
   .serviceItem {
     flex: 0 0 100%;
     max-width: 100%;
+    min-height: auto;
   }
 }

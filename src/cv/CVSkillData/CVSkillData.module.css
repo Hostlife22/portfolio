@@ -5,7 +5,7 @@
 .skillsName {
   display: flex;
   align-items: center;
-  margin-bottom: var(--mb-3);
+  margin-bottom: var(--mb-1);
 }
 
 .skillsCircle {

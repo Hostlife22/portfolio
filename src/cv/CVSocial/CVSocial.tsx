@@ -1,6 +1,6 @@
 import cn from 'classnames';
-import React, { ForwardedRef, forwardRef } from 'react';
-import { FaFacebook, FaInstagram, FaLinkedinIn } from 'react-icons/fa';
+import { ForwardedRef, forwardRef } from 'react';
+import { FaGithub, FaInstagram, FaTelegram } from 'react-icons/fa';
 import { CVTitle } from '..';
 import { selectScaleCV } from '../../features/scaleCV/scaleCVSlice';
 import { useAppSelector } from '../../hooks';
@@ -18,18 +18,18 @@ const CVSocial = forwardRef(
         <CVTitle>SOCIAL</CVTitle>
         <div className={cn(styles.socialContainer, styles.bdGrid)}>
           <a
-            href="https://linkedin.com/"
+            href="https://github.com/Hostlife22"
             className={styles.socialLink}
             target="_blank"
             rel="noreferrer">
-            <FaLinkedinIn /> @Hostlife22
+            <FaGithub /> @Hostlife22
           </a>
           <a
-            href="https://www.facebook.com/"
+            href="https://t.me/Hostlife22"
             className={styles.socialLink}
             target="_blank"
             rel="noreferrer">
-            <FaFacebook /> @Hostlife22
+            <FaTelegram /> @Hostlife22
           </a>
           <a
             href="https://www.instagram.com"

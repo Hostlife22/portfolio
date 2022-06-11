@@ -1,0 +1,26 @@
+.tagSkills {
+  padding-top: 40px;
+}
+
+.tagTitle {
+  margin-bottom: 30px;
+  color: var(--text-black-900);
+  font-weight: 700;
+  font-size: 24px;
+}
+
+.tagContainer {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.tagItem {
+  padding: 5px 10px;
+  color: var(--text-black-900);
+  font-weight: 700;
+  background-color: var(--bg-black-100);
+  border: 1px solid var(--bg-black-50);
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgb(48 46 77 / 15%);
+}

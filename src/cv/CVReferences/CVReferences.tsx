@@ -1,5 +1,5 @@
 import cn from 'classnames';
-import React, { ForwardedRef, forwardRef } from 'react';
+import { ForwardedRef, forwardRef } from 'react';
 import { CVTitle } from '..';
 import { selectScaleCV } from '../../features/scaleCV/scaleCVSlice';
 import { references } from '../../helpers/cv-helpers';
@@ -17,10 +17,10 @@ const CVReferences = forwardRef(
         ref={ref}
         id="references"
         {...props}>
-        <CVTitle decoration>References</CVTitle>
+        <CVTitle decoration>Pet projects </CVTitle>
         <div className={cn(styles.referencesContainer, styles.bdGrid)}>
           {references.map((item) => (
-            <CVReferenceItem key={item.subtitle} item={item} />
+            <CVReferenceItem key={item.description} item={item} />
           ))}
         </div>
       </section>

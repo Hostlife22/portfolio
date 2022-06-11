@@ -1,5 +1,5 @@
 import { Card, PersonalInfo, Row, Section, Skills, Title } from '../../components';
-import { education } from '../../helpers/helpers';
+import { education, experience } from '../../helpers/helpers';
 import styles from './About.module.css';
 
 function About() {
@@ -16,12 +16,12 @@ function About() {
                 I&apos; m Serafim Sen and <span>Web Developer</span>
               </h3>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto voluptates aspernatur
-                suscipit dolorem praesentium commodi omnis distinctio accusantium provident hic
-                voluptas, doloremque repudiandae? Quasi optio placeat quos labore. Error, eos. Lorem
-                ipsum dolor sit amet consectetur adipisicing elit. Iusto voluptates aspernatur
-                suscipit dolorem praesentium commodi omnis distinctio accusantium provident hic
-                voluptas, doloremque repudiandae? Quasi optio placeat quos labore. Error, eos.
+                I am a focused, dedicated and confident individual, with experience in creating user
+                and mobile friendly Websites. I have hands on experience using html, CSS,
+                JavaScript, Bootstrap and Flexbox to create responsive software applications and
+                implement design templates. I love exploring new technologies and being a
+                practitioner, I like to stay on top of latest trends. I try to leave every line of
+                code I write more readable, accessible, and modular.
               </p>
             </div>
           </Row>
@@ -31,7 +31,7 @@ function About() {
           </Row>
           <Row>
             <Card title="Education" items={education} />
-            <Card title="Experience" items={education} />
+            <Card title="Experience" items={experience} />
           </Row>
         </div>
       </Row>

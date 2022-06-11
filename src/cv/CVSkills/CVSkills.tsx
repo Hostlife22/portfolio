@@ -1,5 +1,5 @@
 import cn from 'classnames';
-import React, { ForwardedRef, forwardRef } from 'react';
+import { ForwardedRef, forwardRef } from 'react';
 import { CVTitle } from '..';
 import { selectScaleCV } from '../../features/scaleCV/scaleCVSlice';
 import { useAppSelector } from '../../hooks';
@@ -16,11 +16,9 @@ const CVSkills = forwardRef(
         ref={ref}
         id="skills"
         {...props}>
-        <CVTitle>Skills</CVTitle>
-
+        <CVTitle decoration>Skills</CVTitle>
         <div className={cn(styles.skillsContent, styles.bdGrid)}>
-          <CVSkillData list={['Html', 'CSS', 'Sass', 'JavaScript']} />
-          <CVSkillData list={['React', 'Next', 'Express', 'Mongodb']} />
+          <CVSkillData />
         </div>
       </section>
     );

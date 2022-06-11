@@ -63,6 +63,11 @@ ul {
   list-style: none;
 }
 
+html,
+body {
+  scrollbar-color: var(--skin-color) var(--bg-black-50);
+}
+
 ::-webkit-scrollbar {
   width: 5px;
 }

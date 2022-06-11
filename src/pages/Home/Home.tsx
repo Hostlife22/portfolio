@@ -33,8 +33,9 @@ function Home() {
             </span>
           </h3>
           <p>
-            I&apos; m web Designer with extensive experience for over 10 years. My expertise is to
-            create and website design, graphic design, and many more...
+            Hello. I am a person, responsible with their work during working hours. I&apos;m
+            interested in design and programming. I like to work on projects that entertain and
+            inform.
           </p>
           <Link href="/cv">Open CV</Link>
         </div>

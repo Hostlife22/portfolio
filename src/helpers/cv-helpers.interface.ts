@@ -17,8 +17,10 @@ export interface IExperenceInfo {
 }
 
 export interface IReferenceItem {
-  subtitle: string;
+  githubUrl: string;
+  appUrl: string;
   title: string;
-  phone: string;
+  description: string;
   email: string;
+  skills: string[];
 }
