@@ -137,7 +137,7 @@ export const education: ICardItem[] = [
     years: 'from 2021 untill today',
     title: '',
     description: 'Learning new technologies ',
-    id: 3,
+    id: 4,
   },
 ];
 export const experience: ICardItem[] = [
