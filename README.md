@@ -1,9 +1,12 @@
 # Portfolio
 
-
 ### [Site link](https://precious-malasada-e9ce53.netlify.app/)
 
- ### 🛠 The tech stack is:
+<kbd>
+  <img align="right" alt="img" src="src/images/CL0s4pj.jpeg"  />
+</kbd>
+
+### 🛠 The tech stack is:
 
 - [React](https://reactjs.org/)
 - [TypeScript](https://www.typescriptlang.org/)
@@ -14,4 +17,3 @@
 - [typed.js](https://github.com/mattboldt/typed.js)
 - [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)
 - [Flexbox](https://en.wikipedia.org/wiki/CSS_Flexible_Box_Layout)
-
