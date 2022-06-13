@@ -1,4 +1,4 @@
-import React from 'react';
+import 'react-lazy-load-image-component/src/effects/blur.css';
 import { Route, Routes } from 'react-router-dom';
 import Layout from './layout/Layout';
 import { About, Contact, Home, Portfolio, Services } from './pages';

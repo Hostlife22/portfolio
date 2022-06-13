@@ -1,4 +1,5 @@
 import { useEffect, useRef } from 'react';
+import { LazyLoadImage } from 'react-lazy-load-image-component';
 import Typed from 'typed.js';
 import { Link, Row, Section } from '../../components';
 import { ImgAvatar } from '../../images';
@@ -41,7 +42,7 @@ function Home() {
           <Link href="/cv">Open CV</Link>
         </div>
         <div className={styles.homeImg}>
-          <img src={ImgAvatar} alt="Avatar" />
+          <LazyLoadImage src={ImgAvatar} alt="Avatar" effect="blur" />
         </div>
       </Row>
     </Section>

@@ -1,5 +1,5 @@
 import cn from 'classnames';
-import React from 'react';
+import { LazyLoadImage } from 'react-lazy-load-image-component';
 import styles from './CardPortfolio.module.css';
 import { ICardPortfolioProps } from './CardPortfolio.props';
 
@@ -8,7 +8,7 @@ function CardPortfolio({ className, project }: ICardPortfolioProps): JSX.Element
     <div className={cn(styles.portfolioItem, className)}>
       <div className={styles.portfolioItemInner}>
         <div className={styles.portfolioImg}>
-          <img src={project.img} alt={project.name} />
+          <LazyLoadImage src={project.img} alt={project.name} effect="blur" />
           <div className={styles.portfolioMask}>
             <a
               href={project.githubLink}

@@ -1,6 +1,7 @@
 import cn from 'classnames';
-import React, { ForwardedRef, forwardRef } from 'react';
+import { ForwardedRef, forwardRef } from 'react';
 import { BiDownload, BiEnvelope, BiMap, BiPhone } from 'react-icons/bi';
+import { LazyLoadImage } from 'react-lazy-load-image-component';
 import { StyleSwitcher } from '../../components';
 import { selectScaleCV } from '../../features/scaleCV/scaleCVSlice';
 import { useAppSelector } from '../../hooks';
@@ -23,7 +24,7 @@ const CVHome = forwardRef(
         id="home">
         <div className={cn(styles.homeContainer, styles.section, styles.bdGrid)}>
           <div className={cn(styles.homeData, styles.bdGrid)}>
-            <img src={avatar} alt="Avatar" className={styles.homeImg} />
+            <LazyLoadImage src={avatar} alt="Avatar" className={styles.homeImg} effect="blur" />
             <h1 className={styles.homeTitle}>
               Sen <b>Serafim</b>
             </h1>
