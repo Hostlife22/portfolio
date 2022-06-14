@@ -37,7 +37,7 @@ function Contact() {
             <FaGlobeEurope />
           </div>
           <h4>Website</h4>
-          <p>www.domain.com</p>
+          <p>github.com/Hostlife22</p>
         </div>
       </Row>
       <h3 className={styles.contactTitle}>SEND ME AN EMAIL</h3>
