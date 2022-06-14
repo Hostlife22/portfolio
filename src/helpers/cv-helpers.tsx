@@ -87,7 +87,7 @@ export const experienceInfo: IExperenceInfo[] = [
     title: 'REACT DEVELOPER',
     company: 'From 2021 to 2022 | Pet project development',
     description:
-      'I have worked on many various projects as a web developer for the past  one year. I have good experience in both front- and backend development. I have programmed large websites and web services both REST. My main strength lies in Javascript and CSS, more specifically in  React with Redux,  Next.js, SASS, LESS and CSS Modules.',
+      'I have worked on many various projects as a web developer for the past one year. I have experience in both front- and backend development. I have programmed websites and web services both REST. My main strength lies in Javascript and CSS, more specifically in React with Redux, Next.js, SASS, LESS and CSS Modules.',
   },
 ];
 
