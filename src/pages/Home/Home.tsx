@@ -11,8 +11,10 @@ function Home() {
   useEffect(() => {
     const typed = new Typed(typedRef.current as HTMLSpanElement, {
       strings: ['Web Designer', 'Web Developer'],
+      startDelay: 300,
       typeSpeed: 100,
-      backSpeed: 60,
+      backSpeed: 100,
+      backDelay: 100,
       loop: true,
     });
 
@@ -31,7 +33,7 @@ function Home() {
           <h3 className={styles.myProfession}>
             I&apos; m, a{' '}
             <span className={styles.typing} ref={typedRef}>
-              web designer
+              Web Developer
             </span>
           </h3>
           <p>
