@@ -1,27 +1,11 @@
-import { useEffect, useRef } from 'react';
 import { LazyLoadImage } from 'react-lazy-load-image-component';
-import Typed from 'typed.js';
+// import Typed from 'typed.js';
+import Typed from 'react-typed';
 import { Link, Row, Section } from '../../components';
 import { ImgAvatar } from '../../images';
 import styles from './Home.module.css';
 
 function Home() {
-  const typedRef = useRef<HTMLSpanElement | null>(null);
-
-  useEffect(() => {
-    const typed = new Typed(typedRef.current as HTMLSpanElement, {
-      strings: ['Web Designer', 'Web Developer'],
-      loop: true,
-      typeSpeed: 100,
-      backSpeed: 80,
-      backDelay: 1500,
-    });
-
-    return () => {
-      typed.destroy();
-    };
-  }, []);
-
   return (
     <Section className={styles.home}>
       <Row className={styles.homeRow}>
@@ -31,8 +15,14 @@ function Home() {
           </h3>
           <h3 className={styles.myProfession}>
             I&apos; m, a{' '}
-            <span className={styles.typing} ref={typedRef}>
-              Web Developer
+            <span className={styles.typing}>
+              <Typed
+                strings={['Web Designer', 'Web Developer']}
+                typeSpeed={100}
+                backSpeed={80}
+                backDelay={1500}
+                loop
+              />
             </span>
           </h3>
           <p>
