@@ -20,9 +20,6 @@ const CVProfile = forwardRef(
           Hello. I am a person, responsible with their work during working hours. I&apos;m
           interested in design and programming. I like to work on projects that entertain and
           inform.
-          {/* I love exploring new technologies and being a practitioner, I like to stay on top
-          of latest trends. I try to leave every line of code I write more readable, accessible, and
-          modular. */}
         </p>
       </section>
     );
