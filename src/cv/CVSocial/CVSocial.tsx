@@ -32,7 +32,7 @@ const CVSocial = forwardRef(
             <FaTelegram /> @Hostlife22
           </a>
           <a
-            href="https://www.instagram.com"
+            href="https://www.instagram.com/serafim.sen/"
             className={styles.socialLink}
             target="_blank"
             rel="noreferrer">

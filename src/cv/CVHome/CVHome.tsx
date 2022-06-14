@@ -5,7 +5,8 @@ import { LazyLoadImage } from 'react-lazy-load-image-component';
 import { StyleSwitcher } from '../../components';
 import { selectScaleCV } from '../../features/scaleCV/scaleCVSlice';
 import { useAppSelector } from '../../hooks';
-import avatar from '../../images/avatar.jpg';
+import { ImgAvatarCV } from '../../images';
+
 import styles from './CVHome.module.css';
 import { ICVHomeProps } from './CVHome.props';
 
@@ -24,7 +25,12 @@ const CVHome = forwardRef(
         id="home">
         <div className={cn(styles.homeContainer, styles.section, styles.bdGrid)}>
           <div className={cn(styles.homeData, styles.bdGrid)}>
-            <LazyLoadImage src={avatar} alt="Avatar" className={styles.homeImg} effect="blur" />
+            <LazyLoadImage
+              src={ImgAvatarCV}
+              alt="Avatar"
+              className={styles.homeImg}
+              effect="blur"
+            />
             <h1 className={styles.homeTitle}>
               Sen <b>Serafim</b>
             </h1>

@@ -1,3 +1,4 @@
+export { default as ImgAvatarCV } from './avatar-cv.jpg';
 export { default as ImgAvatar } from './avatar.jpg';
 export { default as ImgCrypto } from './crypto.png';
 export { default as ImgNetflix } from './netflix.png';

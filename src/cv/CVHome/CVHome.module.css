@@ -66,6 +66,7 @@
   width: 120px;
   height: 120px;
   margin-bottom: var(--mb-1);
+  border: 3px solid var(--text-black-700);
   border-radius: 50%;
 }
 
