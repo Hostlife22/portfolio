@@ -259,3 +259,27 @@ export const colors: IColor[] = [
     color: ThemeColors.Purple,
   },
 ];
+
+export const tags: string[] = [
+  'HTML5',
+  'CSS3',
+  'Javascript',
+  'ES2015',
+  'ES2016',
+  'React',
+  'Next',
+  'SASS',
+  'LESS',
+  'Github',
+  'Webpack',
+  'Gulp',
+  'Babel',
+  'Bootstrap',
+  'Node',
+  'Git',
+  'mongoDb',
+  'Express',
+  'Eslint',
+  'Stylelint',
+  'Prettier',
+];
