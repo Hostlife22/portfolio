@@ -11,11 +11,10 @@ function Home() {
   useEffect(() => {
     const typed = new Typed(typedRef.current as HTMLSpanElement, {
       strings: ['Web Designer', 'Web Developer'],
-      startDelay: 300,
-      typeSpeed: 100,
-      backSpeed: 100,
-      backDelay: 100,
       loop: true,
+      typeSpeed: 100,
+      backSpeed: 80,
+      backDelay: 1500,
     });
 
     return () => {
