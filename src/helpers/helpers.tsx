@@ -243,7 +243,7 @@ export const portfolio: IPortfilioCard[] = [
     name: 'Project 8',
     id: 8,
     githubLink: 'https://github.com/Hostlife22/fit-club',
-    projectLink: 'https://62c5f944665aa900099a360d--luxury-chebakia-bb357f.netlify.app/',
+    projectLink: 'https://luxury-chebakia-bb357f.netlify.app/',
   },
   {
     img: ImgTesla,
