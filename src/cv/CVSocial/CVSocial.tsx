@@ -1,6 +1,6 @@
 import cn from 'classnames';
 import { ForwardedRef, forwardRef } from 'react';
-import { FaGithub, FaInstagram, FaTelegram } from 'react-icons/fa';
+import { FaGithub, FaLinkedin, FaTelegram } from 'react-icons/fa';
 import { CVTitle } from '..';
 import { selectScaleCV } from '../../features/scaleCV/scaleCVSlice';
 import { useAppSelector } from '../../hooks';
@@ -32,11 +32,11 @@ const CVSocial = forwardRef(
             <FaTelegram /> @Hostlife22
           </a>
           <a
-            href="https://www.instagram.com/serafim.sen/"
+            href="https://www.linkedin.com/in/hostlife22/"
             className={styles.socialLink}
             target="_blank"
             rel="noreferrer">
-            <FaInstagram /> @Hostlife22
+            <FaLinkedin /> @Hostlife22
           </a>
         </div>
       </section>

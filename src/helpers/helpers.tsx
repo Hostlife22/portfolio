@@ -10,7 +10,17 @@ import {
   FaUserAlt,
 } from 'react-icons/fa';
 import { ThemeColors } from '../features/theme/theme.interface';
-import { ImgCrypto, ImgNetflix, ImgOwl, ImgTesla, ImgTravelya, ImgYoutube } from '../images';
+import {
+  ImgCrypto,
+  ImgDisney,
+  ImgFit,
+  ImgNetflix,
+  ImgOwl,
+  ImgTesla,
+  ImgTravelya,
+  ImgVideoBlog,
+  ImgYoutube,
+} from '../images';
 import {
   ICardItem,
   IColor,
@@ -59,10 +69,6 @@ export const personalInfo: IpersonalInfo[] = [
     value: '22',
   },
   {
-    title: 'Website',
-    value: 'github.com/Hostlife22',
-  },
-  {
     title: 'Email',
     value: 'sima.serafim2@mail.ru',
   },
@@ -73,6 +79,10 @@ export const personalInfo: IpersonalInfo[] = [
   {
     title: 'City',
     value: 'Grodno',
+  },
+  {
+    title: 'Website',
+    value: 'https://www.linkedin.com/in/serafim-sen-962958241/',
   },
 ];
 
@@ -193,6 +203,13 @@ export const services: IServiceCard[] = [
 
 export const portfolio: IPortfilioCard[] = [
   {
+    img: ImgVideoBlog,
+    name: 'Project 9',
+    id: 9,
+    githubLink: 'https://github.com/Hostlife22/video-blog',
+    projectLink: 'https://videoapp-blog.web.app/',
+  },
+  {
     img: ImgOwl,
     name: 'Project 2',
     id: 2,
@@ -222,6 +239,13 @@ export const portfolio: IPortfilioCard[] = [
   },
 
   {
+    img: ImgFit,
+    name: 'Project 8',
+    id: 8,
+    githubLink: 'https://github.com/Hostlife22/fit-club',
+    projectLink: 'https://62c58b5a14c869228b334397--luxury-chebakia-bb357f.netlify.app/',
+  },
+  {
     img: ImgTesla,
     name: 'Project 6',
     id: 6,
@@ -234,6 +258,13 @@ export const portfolio: IPortfilioCard[] = [
     id: 7,
     githubLink: 'https://github.com/Hostlife22/react-tailwind-website',
     projectLink: 'https://peaceful-rosalind-8f71ec.netlify.app/',
+  },
+  {
+    img: ImgDisney,
+    name: 'Project 10',
+    id: 10,
+    githubLink: 'https://github.com/Hostlife22/disney-clone-app',
+    projectLink: 'https://disney-clone-43d3c.web.app/',
   },
 ];
 

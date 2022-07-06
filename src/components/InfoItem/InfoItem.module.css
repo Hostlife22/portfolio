@@ -19,6 +19,10 @@
   font-weight: 400;
 }
 
+.infoItem p span a {
+  color: var(--skin-color);
+}
+
 @media (max-width: 1199px) {
   .infoItem p span {
     display: block;

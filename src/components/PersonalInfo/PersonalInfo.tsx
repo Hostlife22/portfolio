@@ -9,8 +9,8 @@ function PersonalInfo({ className }: IPersonalProps): JSX.Element {
   return (
     <div className={cn(styles.personalInfo, className)}>
       <Row>
-        {personalInfo.map((item) => (
-          <InfoItem key={item.title} item={item} />
+        {personalInfo.map((item, i) => (
+          <InfoItem key={item.title} item={item} link={personalInfo.length - 1 === i} />
         ))}
       </Row>
       <Row>

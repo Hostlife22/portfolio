@@ -7,6 +7,11 @@
 
 .portfolioImg {
   position: relative;
+  display: flex;
+  width: 100%;
+  max-width: 400px;
+  height: 100%;
+  max-height: 225px;
 }
 
 .portfolioMask {
@@ -42,6 +47,8 @@
 }
 
 .portfolioItem .portfolioItemInner {
+  width: fit-content;
+  margin: 0 auto;
   overflow: hidden;
   border: 6px solid var(--bg-black-100);
   box-shadow: 0 0 20px rgb(48 46 77 / 15%);

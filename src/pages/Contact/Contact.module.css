@@ -46,6 +46,10 @@
   line-height: 25px;
 }
 
+.contact .contactInfoItem p a {
+  color: var(--skin-color);
+}
+
 @media (max-width: 991px) {
   .contact .contactInfoItem {
     flex: 0 0 50%;
