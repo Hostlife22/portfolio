@@ -231,14 +231,6 @@ export const portfolio: IPortfilioCard[] = [
     projectLink: 'https://eclectic-buttercream-17464e.netlify.app/',
   },
   {
-    img: ImgNetflix,
-    name: 'Project 4',
-    id: 4,
-    githubLink: 'https://github.com/Hostlife22/react-netflix-clone',
-    projectLink: 'https://melodic-bonbon-718d81.netlify.app/',
-  },
-
-  {
     img: ImgFit,
     name: 'Project 8',
     id: 8,
