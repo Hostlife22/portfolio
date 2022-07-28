@@ -235,7 +235,7 @@ export const portfolio: IPortfilioCard[] = [
     name: 'Project 4',
     id: 4,
     githubLink: 'https://github.com/Hostlife22/react-netflix-clone',
-    projectLink: 'https://netflix-clone-ae764.firebaseapp.com/',
+    projectLink: 'https://melodic-bonbon-718d81.netlify.app/',
   },
 
   {
